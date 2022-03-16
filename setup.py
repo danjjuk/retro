@@ -91,7 +91,7 @@ setup(
         'retro.data.contrib': platform_globs,
     },
     extras_require={'docs': ['sphinx', 'sphinx_rtd_theme', 'sphinx-autobuild', 'm2r']},
-    setup_requires=['setuptools_scm'],
+    setup_requires=['setuptools_scm==3.5.0'],
     use_scm_version=use_scm_version,
     **kwargs
 )
